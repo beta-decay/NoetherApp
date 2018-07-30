@@ -1,16 +1,10 @@
-<widget id="com.hygiene.checker" version="1.0.0">
-	<name>Hygiene Checker</name>
+<widget id="com.noether.interpreter" version="1.0.0">
+	<name>Noether Interpreter</name>
 	<description>
-		Displays the Food Hygiene Ratings of local establishments.
+		An offline interpreter for the programming language Noether
 	</description>
 	<author>
         Beta Decay
     </author>
-	<plugin name="org.apache.cordova.geolocation"/>
-	<content src="index.html"/>
-	<access origin="*"/>
-	<plugin version="1" name="cordova-plugin-whitelist"/>
-	<allow-navigation href="http://*/*"/>
-	<allow-intent href="http://*/*"/>
 	<icon src="./logo.png" />
 </widget>
